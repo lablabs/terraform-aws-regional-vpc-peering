@@ -63,7 +63,7 @@ No Modules.
 
 Feel free to create an issue in this repository if you have questions, suggestions or feature requests.
 
-Credits (https://github.com/QuiNovas)[https://github.com/QuiNovas/terraform-aws-vpc-peering]
+Credits [QuiNovas](https://github.com/QuiNovas/terraform-aws-vpc-peering)
 
 ### Validation, linters and pull-requests
 
