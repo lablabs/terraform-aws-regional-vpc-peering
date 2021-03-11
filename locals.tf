@@ -6,4 +6,3 @@ locals {
   requester_route_table_ids_join  = length(var.requester_route_table_ids) > 0 ? join(",", var.requester_route_table_ids) : join(",", data.aws_route_tables.requester.ids)
   requester_route_table_ids_count = length(var.requester_route_table_ids) > 0 ? length(var.requester_route_table_ids) : length(data.aws_route_tables.requester.ids)
 }
-

@@ -25,4 +25,3 @@ data "aws_route_tables" "requester" {
   provider = aws.requester
   vpc_id   = var.requester_vpc_id
 }
-
